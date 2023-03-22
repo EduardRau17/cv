@@ -1,0 +1,260 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.width-80perc {
+    width: 80%;
+}
+
+.m-center {
+    margin: 5% auto;
+}
+
+.shadow {
+    box-shadow: -7px 0 10px 8px #676767;
+}
+
+.dark-background {
+    background-color: #454545;
+}
+
+.light-background {
+    background-color: #e8e8e8;
+}
+
+.width-100perc {
+    width: 100%;
+}
+
+.width-66perc {
+    width: 66.66%;
+}
+
+.width-33perc {
+    width: 33.33%;
+}
+
+.custom-border {
+    border: 5px solid rgba(224, 0, 0, 0.747);
+    position: relative;
+    margin: 15% auto;
+    left: 22%;
+}
+
+.width-50perc {
+    width: 50%;
+}
+
+.larger-text {
+    font-size: 40px;
+}
+
+.text-red {
+    color: rgba(224, 0, 0, 0.747);
+}
+
+.padding-40 {
+    padding: 0 40px;
+}
+
+.padding-60 {
+    padding: 0 90px;
+}
+
+.double-line {
+    display: inline-block;
+    background-color: rgba(224, 0, 0, 0.747);
+    border-radius: 2px;
+    min-height: 20px;
+    width: 4px;
+    rotate: 15deg;
+}
+
+.inline {
+    display: inline-block;
+}
+
+.padd-20 {
+    padding: 20px 0;
+}
+
+.nice-font {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 300;
+    font-size: 1.1em;
+    text-align: justify;
+}
+
+.text-white {
+    color: white;
+}
+
+.m-top {
+    margin-top: 40px;
+}
+
+.horizontal-line {
+    min-height: 2px;
+    border-radius: 5px;
+}
+
+.white {
+    background-color: white;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.cpadd-20 {
+    padding: 20px 10px;
+}
+
+
+.progressbar {
+    margin-left: 10px;
+    width: 150px;
+    background-color: #d3d3d3;
+    min-height: 10px;
+    border-radius: 10px;
+}
+
+.progress {
+    background-color: rgba(224, 0, 0, 0.747);
+    min-height: 10px;
+    border-radius: 10px;
+}
+
+.p90 {
+    width: 90%;
+}
+
+.p40 {
+    width: 40%;
+}
+
+.p60 {
+    width: 60%;
+}
+
+.p75 {
+    width: 75%;
+}
+
+.p50 {
+    width: 50%;
+}
+
+.p30 {
+    width: 30%;
+}
+
+.p20 {
+    width: 20%;
+}
+
+.p65 {
+    width: 65%;
+}
+
+.p100 {
+    width: 100%;
+}
+
+.p10 {
+    width: 10%;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 3fr 1fr 8fr;
+    gap: 10px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.circle {
+    margin-top: 20%;
+    background-color: rgb(42, 42, 42);
+    border-radius: 50%;
+    height: 10px;
+}
+
+.vertical-line{
+    width: 10%;
+    border-left: 2px solid rgba(224, 0, 0, 0.747);
+    height: 100%;
+    margin: 0 auto;
+}
+
+.width-10{
+    width: 10px;
+}
+
+#slide{
+    position: relative;
+    left: 2000%;
+    animation: slideIn 2s forwards;
+    animation-delay: 0.5s;
+}
+
+@keyframes slideIn {
+    100%{
+        left: 0%;
+    }   
+}
+
+.animation {
+    display: block;
+    position: fixed;
+    left: 10px;
+    top: 50%;
+    background-color: rgba(224, 0, 0, 0.747);
+    border-radius: 10px;
+    width: 10px;
+    height: 0%;
+    animation: exapnding-line-animation 4s linear forwards infinite;
+}
+
+.right{
+    position: fixed;
+    right : 10px;
+    top: 50%;
+    background-color: rgba(224, 0, 0, 0.747);
+    border-radius: 10px;
+    width: 10px;
+    height: 0%;
+    animation: exapnding-line-animation 4s linear forwards infinite;
+}
+
+
+/* animatii */
+@keyframes exapnding-line-animation {
+    from {
+        top: 50%;
+        height: 0    
+    }
+
+    50% {
+        top: 0%;
+        height: 100%;
+    }
+
+    to {
+        top: 50%;
+        height: 0    
+    }
+}
+
+a{
+    text-decoration: none;
+    color:rgba(224, 0, 0, 0.747)
+
+}
